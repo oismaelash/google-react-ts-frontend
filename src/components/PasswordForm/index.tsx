@@ -9,12 +9,12 @@ export default function PasswordForm(props: PasswordFormProps) {
 
     return (
         <Fragment>
-            <div className="login-header">
+            <header className="login-header">
                 <h1>Olá!</h1>
                 <div className="login-header--email">{props.email}</div>
-            </div>
+            </header>
 
-            <div className="login-form">
+            <main className="login-form">
                 <div className="login-form--password">
                     <input
                         type="password"
@@ -28,16 +28,16 @@ export default function PasswordForm(props: PasswordFormProps) {
                         <label htmlFor="checkbox">Mostrar senha</label>
                     </div>
                 </div>
-            </div>
+            </main>
 
-            <div className="login-button">
+            <footer className="login-button">
                 <Button title="Tente de outro jeito" classNameType="button-white" />
                 <Button
                     title="Avançar"
                     classNameType="button-blue"
                     onClickProp={() => props.handleConfirm(props.email, password)}
                 />
-            </div>
+            </footer>
         </Fragment>
     );
 }
