@@ -1,0 +1,40 @@
+button {
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 0px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  font-weight: bold;
+}
+.button-gray {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  color: #3c4043;
+}
+.button-gray:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.button-blue {
+  background: #1a73e8;
+  border: 1px solid transparent;
+  color: #ffffff !important;
+}
+
+.button-white {
+  color: rgb(26, 115, 232);
+  border: 1px solid transparent;
+  background: transparent;
+}
+
+.button-white:hover {
+  background-color: #f8f9fa;
+}

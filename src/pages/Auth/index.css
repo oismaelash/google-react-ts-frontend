@@ -1,0 +1,35 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+
+}
+.login::before,
+.login::after {
+  box-flex: 1;
+  flex-grow: 1;
+  content: "";
+  display: block;
+  height: 24px;
+}
+.login-content {
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  display: block;
+  flex-shrink: 0;
+  margin: 0 auto;
+  min-height: 0;
+  width: 370px;
+  /* width: 50vw; mobile */ 
+  padding: 48px 40px 36px;
+}
+
+
+.login-img {
+  display: flex;
+  height: 24px;
+  justify-content: center;
+  box-sizing: inherit;
+  margin: 0 auto;
+}

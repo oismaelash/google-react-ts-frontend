@@ -1,0 +1,98 @@
+.login-step {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.login-header {
+  text-align: center;
+}
+
+.login-header h1 {
+  color: rgb(32, 33, 36);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3333;
+  word-break: break-word;
+  margin: 10px 0;
+}
+.login-header p {
+  color: rgb(32, 33, 36);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+.login-header--email {
+  align-items: center;
+  background: #fff;
+  border: 1px solid rgb(218, 220, 224);
+  border-radius: 16px;
+  box-sizing: border-box;
+  color: rgb(60, 64, 67);
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  max-width: 100%;
+  position: relative;
+  line-height: 30px;
+  padding: 0 15px 0 15px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.login-form {
+  padding: 24px 0 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form--password {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  border-radius: 4px;
+  color: rgb(32, 33, 36);
+  font-size: 16px;
+  height: 28px;
+  margin: 1px 1px 0 1px;
+  padding: 13px 15px;
+  border: 1px solid #968b8b;
+}
+.login-form a {
+  text-align: left;
+  padding: 2px 3px;
+  margin-top: 10px;
+  width: 100%;
+}
+.login-form--checkbox {
+  margin-top: 10px;
+  position: relative;
+}
+
+.login-form--checkbox input[type="checkbox"] {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #5f6368;
+  position: absolute;
+  top: 3px;
+}
+.login-form--checkbox label {
+  margin-left: 30px;
+  padding-bottom: 3px;
+  color: rgb(32, 33, 36);
+  display: inline-block;
+  font-size: 14px;
+  max-width: 100%;
+}
+
+.login-button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
